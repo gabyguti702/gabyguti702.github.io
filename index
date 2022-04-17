@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <div class = "intro" > 
+
+    <div class = "heading" >
+      <h1> flora </h1>
+    </div>
+
+    <center>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href = "plantsitter.html">Plant Sitter</a>
+  <a href = "chat.html">Send a Message to an Expert</a>
+  <a href = "plantbank.html">Plant Bank</a>
+</div>
+    </center>
+    
+  </div>
+
+    <br> </br>
+
+  <div class = "main-message" >
+
+      </div>
+  
+  <div class = "welcome" >
+      <h3> Welcome to Flora, </h3>
+      <div id ="welcomep" >
+      <p>  Your one-stop shop for everything plant related! On this website you can discover your location's hardness level, locate plant names and facts, and more!  </p>
+      </div>
+   </div>
+
+
+  <br> </br>
+  
+</body>
+
+</html>
