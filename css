@@ -1,0 +1,184 @@
+.intro {
+  height: 150px;
+  background-color: #AD91A3;
+  margin: none;
+  padding: 0px;
+  margin-top: 45px;
+  padding-top: 15px;
+}
+
+.heading {
+  font-size: 40px;
+  padding: 10px;
+  color: #F6E7CB;
+  margin-left: 35px;
+}
+
+body {
+  background-color: #F6E7CB;
+}
+
+* { margin: 0; padding: 0; border: none; }
+
+.main-message {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #F6E7CB;
+  background-size: cover;
+  height: 500px; 
+  background-attachment: fixed;
+  background-image: url("flowers.jpeg");
+  text-align: center;
+}
+
+.main-message img {
+  height: 150px;
+}
+
+.welcome {
+  color: #917888;
+  padding: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Helvetica";
+}
+
+.welcome p {
+  color: #917888;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Helvetica";
+}
+
+.button1 {
+  background-color: #678D58;
+  color: #F6E7CB;
+  padding: 20px;
+  margin-top: 20px;
+  width: 600px;
+  font-family: "Helvetica";
+  font-size: 18px;
+  align-content: center;
+  border-radius: 2px;
+  display: block;
+}
+
+button1:hover {
+  background-color: #A6C48A;
+}
+
+.one {
+  height: 300px;
+  background-color: #D7DBB6;
+  margin: none;
+  padding: 20px;
+  color: #537147;
+  font-size: 25px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #C2AEBA;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #745869;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Helvetica";
+}
+
+.navbar a:hover {
+  color: #F6E7CB;
+}
+
+form {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+input[type=checkbox] {
+  display: inline;
+}
+
+{box-sizing: border-box;}
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+ background-color: #555;
+ color: white;
+ padding: 16px 20px;
+ border: none;
+ cursor: pointer;
+ opacity: 0.8;
+ position: fixed;
+ bottom: 23px;
+ right: 28px;
+ width: 280px;
+}
+/* The popup chat - hidden by default */
+.form-popup {
+ display: none;
+ position: fixed;
+ bottom: 0;
+ right: 15px;
+ border: 3px solid #F1F1F1;
+ z-index: 9;
+}
+/* Add styles to the form container */
+.form-container {
+ max-width: 300px;
+ padding: 10px;
+ background-color: white;
+}
+/* Full-width textarea */
+.form-container textarea {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ border: none;
+ background: #F1F1F1;
+ resize: none;
+ min-height: 200px;
+}
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+ background-color: #ddd;
+ outline: none;
+}
+/* Set a style for the submit/login button */
+.form-container .btn {
+ background-color: #04AA6D;
+ color: white;
+ padding: 16px 20px;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+ margin-bottom:10px;
+ opacity: 0.8;
+}
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+ background-color: red;
+}
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+ opacity: 1;
+}
